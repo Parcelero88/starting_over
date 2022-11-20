@@ -1,0 +1,21 @@
+<!DOCTYPE hltm>
+<htmt lang="en"
+<head>
+  <meta charset="utf-8"
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0"
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Results</title>
+</head>
+<body>
+  <div id="results"></div>
+  <a href="/">Back to Form</a>
+  <script>
+    const resultslist = document.getlelementbyid('results')
+    new URLSearchParams (window.location.search).forEach((value, name) => {
+      resultslist.append(`${name}: ${value}`)
+      resultslist.append(document.createelement<'br'))
+    })
+  </script>
+</body>
+</html>

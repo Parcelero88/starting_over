@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<title>Trying New Things</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  background-image: img src= "images\beach_trimmed.jpg" alt="Hector & family walking on a beach, 2022";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+div {
+  width: 1600px;
+  border: 5px black;
+  padding: 15px;
+  margin: auto;
+}
+.header {
+  background-color: SlateGray;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  font-weight: bold;
+  margin: auto;
+  position: sticky;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: Gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: SlateGray;
+  color: black;
+}
+.topnav a:hover:not(.active) {
+  background-color: SlateGray;
+  color: black;
+}
+.column.side {
+  background-color: SlateGray;
+  float: left;
+  width: 20%;
+}
+.column.middle {
+  float: left;
+  width: 60%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.footer{
+  background-color: SlateGray;
+  text-align: right;
+  padding: 5px;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+p {
+  background-color: White;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  background-color: Slategray;
+  font-family: 'Island Moments', cursive;
+}
+h2 {
+  font-size: 30px;
+  background-color: Slategray;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h3 {
+  font-size: 24px;
+  background-color: Slategray;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+img {
+  height: 50%;
+  width: 50%;
+  image-align: center;
+}
+</style>
+</head>
+<body>
+<div class="sticky">
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="page2.html">1st post</a>
+    <a href="page3.html">Coming Soon</a>
+  </div>
+</div>
+
+<div class="header">
+  <h1>Trying New Things!</h1>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Register</h2>
+    <form>
+      <div>
+        <label for="First Name">First Name:</label>
+        <input type="text" name="First Name" id="First Name" placeholder="First Name" required>
+      </div>
+      <div>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" name="Last Name" id="Last Name" placeholder="Last Name" required>
+     </div>
+     <div>
+      <label for="Email">Email:</label>
+      <input type="Email" name="Email" id="Email" required>
+    </div>
+    <div>
+      Time Zone:
+      <div>
+        <label for="Eastern">Eastern</label>
+        <input type="Checkbox" name="Eastern" id="Eastern">
+      </div>
+      <div>
+        <label for="Central">Central</label>
+        <input type="Checkbox" name="Central" id="Central">
+      </div>
+      <div>
+        <label for="Mountain">Mountain</label>
+        <input type="Checkbox" name="Mountain" id="Mountain">
+      </div>
+      <div>
+        <label for="Pacific">Pacific</label>
+        <input type="Checkbox" name="Pacific" id="Pacific">
+      </div>
+      <div>
+        <label for="Other">Other</label>
+        <input type="Checkbox" name="Other" id="Other">
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </div>
+
+  <div class="column middle">
+    <h2>Where we were.</h2>
+    <p>&#128533</p>
+    <p>This is a picture of my family the morning I left for my last deployment to Iraq in early 2017.  My wife and two youngest children are the most important people in my life.</p>
+    <img src="images/Iraq1.jpg" alt="Hector & Family, 2017"</img src>
+    <p>My wife graduated from culinary school in 1999, a month before our wedding.  I was serving on active duty in the US Army and she put her career on hold to follow me around.  She supported my career development and growth for the next 20 years until I retired in 2019.  In 2015 she started her first blog, then rebranded herself and began <a href="https://senseandedibility.com/">Sense & Edibility</a></p>
+
+    <h2>Our unknown.</h2>
+    <img src="images/SATX.jpg" alt="Our first weekend in San Antonio"</img src>
+    <p>My wife and I decided we would relocate to San Antonio from Fort Hood, TX.  We both loved the city and had many friends who lived there.  I was hired by a local company and, after unpacking some of our things into our apartment and stuffing the rest into a storage unit, we began exploring our new location.  Part of our "exploration" included finding a place to build our forever home.  We really did not know what to expect, but managed to find a great lot and moved into our last house April of 2021, 23-months after arriving.</p>
+
+    <h2>Where we are now.</h3>
+    <p>My wife's blog has grown exponentially.  She continues to build her online cookbook and is loving it.  Our 17-year-old twins are first-year students at UTSA.  My son is pursuing a degree in electrical engineering and my daughter in biochemistry. They are our legacy and my wife and I have worked hard with the focus to give them the springboard into adulthood neither one of us had.  When most parents are becoming empty nesters, we continue to remain engaged in their lives, hoping to provide sound guidance and help them avoid the pitfalls we fell into.  I am pursuinig an Associates in Applied Sciences in Digital Media and will join my wife's team and with the hope to help grow her company further</p>
+    <img src="images/Family1.jpg" alt="Hector & Family, 2022"</img src>
+  </div>
+
+  <div class="column side">
+    <h2 style= "text-align: right;">Right Side</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c_1av9B0Ui8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="footer">
+  <p style= "background-color: SlateGray">&copy Hector A. Rivera</p>
+</div>
+</body>
+</html>
